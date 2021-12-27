@@ -47,35 +47,35 @@ const chartOptions = {
 
 const topCustomers = {
     head: [
-        'user',
-        'total orders',
-        'total spending'
+        'utilisateurs',
+        'opérations totales',
+        'economies'
     ],
     body: [
         {
             "username": "john doe",
-            "order": "490",
-            "price": "$15,870"
+            "order": "49",
+            "price": "$150"
         },
         {
             "username": "frank iva",
-            "order": "250",
-            "price": "$12,251"
+            "order": "50",
+            "price": "$120"
         },
         {
             "username": "anthony baker",
             "order": "120",
-            "price": "$10,840"
+            "price": "$100"
         },
         {
             "username": "frank iva",
             "order": "110",
-            "price": "$9,251"
+            "price": "$90"
         },
         {
             "username": "anthony baker",
             "order": "80",
-            "price": "$8,840"
+            "price": "$85"
         }
     ]
 }

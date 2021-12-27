@@ -1,7 +1,6 @@
 import React from 'react'
-import AddBox from "@material-ui/icons/AddBox";
 import MaterialTable from 'material-table'
-import ArrowDownward from "@material-ui/icons/ArrowDownward";
+import './operations.css'
 import { forwardRef } from 'react';
 import AddBox from '@material-ui/icons/AddBox';
 import ArrowDownward from '@material-ui/icons/ArrowDownward';
@@ -18,36 +17,85 @@ import Remove from '@material-ui/icons/Remove';
 import SaveAlt from '@material-ui/icons/SaveAlt';
 import Search from '@material-ui/icons/Search';
 import ViewColumn from '@material-ui/icons/ViewColumn';
-
+import Button from '@mui/material/Button';
 
 function Operations() {
    
     return (
-        <MaterialTable
-          title="Simple Action Preview"
-          columns={[
-            { title: 'Name', field: 'name' },
-            { title: 'Surname', field: 'surname' },
-            { title: 'Birth Year', field: 'birthYear', type: 'numeric' },
-            {
-              title: 'Birth Place',
-              field: 'birthCity',
-              lookup: { 34: 'İstanbul', 63: 'Şanlıurfa' },
-            },
-          ]}
-          data={[
-            { name: 'Mehmet', surname: 'Baran', birthYear: 1987, birthCity: 63 },
-            { name: 'Zerya Betül', surname: 'Baran', birthYear: 2017, birthCity: 34 },
-          ]}        
-          actions={[
-            {
-              icon: 'save',
-              tooltip: 'Save User',
-              onClick: (event, rowData) => alert("You saved " + rowData.name)
-            }
-          ]}
+      <div>
+    <MaterialTable
+        title="Positioning Actions Column Preview"
+        columns={[
+          { title: 'Nom', field: 'Nom' },
+          { title: 'Prénom', field: 'Prénom' },
+          { title: 'DateDeNaissance', field: 'DateDeNaissance', type: 'numeric' },
+          {
+            title: 'Ville',
+            field: 'Ville',
+            lookup: { 34: 'İstanbul', 63: 'Şanlıurfa' },
+          },
+        ]}
+        data={[
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 }
+
+        ]}
+        actions={[
+          {
+            icon: 'save',
+            tooltip: 'Save User',
+            onClick: (event, rowData) => alert("You saved " + rowData.name)
+          },
+          rowData => ({
+            icon: 'delete',
+            tooltip: 'Delete User',
+            onClick: (event, rowData) => window.confirm("You want to delete " + rowData.name),
+            disabled: rowData.birthYear < 2000
+          })
+        ]}
+        options={{
+          actionsColumnIndex: -1
+        }}
         />
+              <Button variant="outlined">Ajouter</Button>
+
+      </div>
+    
       )
+   
+
   }
 
 export default Operations

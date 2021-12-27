@@ -16,11 +16,11 @@
     },
     {
         "display_name": "Statistiques",
-        "route": "/",
+        "route": "/layout/stats",
         "icon": "bx bx-bar-chart-alt"
     }, {
         "display_name":"Logout",
-        "route":"/",
+        "route":"/login",
         "icon":"bx bx-log-out"
     }
     
