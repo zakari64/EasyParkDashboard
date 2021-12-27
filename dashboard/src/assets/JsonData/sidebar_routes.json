@@ -11,23 +11,17 @@
     },
     {
         "display_name": "Opérations",
-        "route": "/orders",
-        "icon": "bx bx-cart"
+        "route": "/layout/operations",
+        "icon": "bx bxs-analyse"
     },
     {
         "display_name": "Statistiques",
         "route": "/",
         "icon": "bx bx-bar-chart-alt"
-    },
-    {
-        "display_name": "categories",
-        "route": "/categories",
-        "icon": "bx bx-list-ol"
-    },
-    {
-        "display_name": "discount",
-        "route": "/discount",
-        "icon": "bx bx-gift"
+    }, {
+        "display_name":"Logout",
+        "route":"/",
+        "icon":"bx bx-log-out"
     }
     
 ]
