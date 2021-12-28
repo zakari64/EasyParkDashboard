@@ -14,3 +14,16 @@
     color : white ;
     border : none ;
 }
+
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-alignRight {
+    text-align: left;
+}
+span.MuiButtonBase-root.MuiTableSortLabel-root {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-start;
+    
+    ;
+}
+

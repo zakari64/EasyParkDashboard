@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Outfit:wght@300&family=Roboto:wght@300;500&display=swap");
+
+.contact .title {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+.contact .cnt {
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width : 65% ;
+  margin: auto;
+}
+.contact .cnt .inputs input {
+  padding : 10px ;
+  width : 80% ;
+  border-radius: 13px;
+  border : 1px solid #C4C4C4;
+  margin-bottom : 10px ;
+  color : rgb(148, 148, 148) ;
+}
+.contact .cnt .inputs input::placeholder{
+  color : #acacac;
+}
+.contact .cnt .inputs input:hover {
+ border: 1px solid #1F90D9;
+}
+.contact .cnt .inputs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  width : 60% ;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .contact .cnt {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

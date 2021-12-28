@@ -6,12 +6,11 @@ import customerList from '../assets/JsonData/customers-list.json'
 
 const customerTableHead = [
     '',
-    'name',
+    'Nom',
     'email',
-    'phone',
-    'total orders',
-    'total spend',
-    'location'
+    'Telephone',
+    'Opérat° totales',
+    'localisation'
 ]
 
 const renderHead = (item, index) => <th key={index}>{item}</th>
@@ -23,7 +22,6 @@ const renderBody = (item, index) => (
         <td>{item.email}</td>
         <td>{item.phone}</td>
         <td>{item.total_orders}</td>
-        <td>{item.total_spend}</td>
         <td>{item.location}</td>
     </tr>
 )
@@ -31,8 +29,8 @@ const renderBody = (item, index) => (
 const Customers = () => {
     return (
         <div>
-            <h2 className="page-header">
-                customers
+            <h2 className="page-header" style={{textAlign:'center'}}>
+             Utilisateurs
             </h2>
             <div className="row">
                 <div className="col-12">

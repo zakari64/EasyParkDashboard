@@ -29,7 +29,7 @@ function Operations() {
         columns={[
           { title: 'Nom', field: 'Nom' },
           { title: 'Prénom', field: 'Prénom' },
-          { title: 'DateDeNaissance', field: 'DateDeNaissance', type: 'numeric' },
+          { title: 'Date', field: 'Date', type: 'numeric' },
           {
             title: 'Ville',
             field: 'Ville',
@@ -37,16 +37,21 @@ function Operations() {
           },
         ]}
         data={[
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, Ville: 63 },
+
         ]}
         actions={[
           {
@@ -65,7 +70,7 @@ function Operations() {
           actionsColumnIndex: -1
         }}
       />
-      <Link to="/form">
+      <Link to="/layout/form">
         <Button variant="outlined">Ajouter</Button>
       </Link>
 
