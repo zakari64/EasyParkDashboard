@@ -18,12 +18,13 @@ import SaveAlt from '@material-ui/icons/SaveAlt';
 import Search from '@material-ui/icons/Search';
 import ViewColumn from '@material-ui/icons/ViewColumn';
 import Button from '@mui/material/Button';
+import {Link} from 'react-router-dom';
 
 function Operations() {
-   
-    return (
-      <div>
-    <MaterialTable
+
+  return (
+    <div>
+      <MaterialTable
         title="Positioning Actions Column Preview"
         columns={[
           { title: 'Nom', field: 'Nom' },
@@ -46,31 +47,6 @@ function Operations() {
           { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
           { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
           { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', DateDeNaissance: 1987, Ville: 63 }
-
         ]}
         actions={[
           {
@@ -88,14 +64,16 @@ function Operations() {
         options={{
           actionsColumnIndex: -1
         }}
-        />
-              <Button variant="outlined">Ajouter</Button>
+      />
+      <Link to="/form">
+        <Button variant="outlined">Ajouter</Button>
+      </Link>
 
-      </div>
-    
-      )
-   
+    </div>
 
-  }
+  )
+
+
+}
 
 export default Operations
