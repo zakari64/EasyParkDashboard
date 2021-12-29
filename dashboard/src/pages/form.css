@@ -24,10 +24,10 @@
   color : rgb(148, 148, 148) ;
 }
 .contact .cnt .inputs input::placeholder{
-  color : #acacac;
+  color : #BDBDBD;
 }
 .contact .cnt .inputs input:hover {
- border: 1px solid #1F90D9;
+ border: 2px solid #1F90D9;
 }
 .contact .cnt .inputs {
   display: flex;

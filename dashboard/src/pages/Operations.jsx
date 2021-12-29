@@ -25,7 +25,7 @@ function Operations() {
   return (
     <div>
       <MaterialTable
-        title="Positioning Actions Column Preview"
+        title="Table des utilisateurs"
         columns={[
           { title: 'Nom', field: 'Nom' },
           { title: 'Prénom', field: 'Prénom' },

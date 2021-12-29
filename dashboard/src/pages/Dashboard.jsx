@@ -14,6 +14,7 @@ import Badge from "../components/badge/Badge";
 
 import statusCards from "../assets/JsonData/status-card-data.json";
 
+
 const chartOptions = {
   series: [
     {
@@ -57,6 +58,8 @@ const chartOptions = {
     },
   },
 };
+
+
 
 const topCustomers = {
   head: ["utilisateurs", "opérations totales", "economies"],
