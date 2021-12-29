@@ -188,7 +188,7 @@ const Dashboard = () => {
         <div className="col-4" style={{ width: "100%" }}>
           <div className="card">
             <div className="card__header">
-              <h3>top customers</h3>
+              <h3 style={{textAlign:'center',fontSize:'22px'}}>Données</h3>
             </div>
             <div className="card__body">
               <Table
@@ -206,7 +206,7 @@ const Dashboard = () => {
         <div className="col-8" style={{ width: "100%" }}>
           <div className="card">
             <div className="card__header">
-              <h3>latest orders</h3>
+              <h3 style={{fontSize:'22px',textAlign:'center'}}>Resumé operations</h3>
             </div>
             <div className="card__body">
               <Table

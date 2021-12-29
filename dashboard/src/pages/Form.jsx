@@ -15,7 +15,7 @@ function Form() {
           <input type="email" placeholder="Entrez email ..." />
           <input type="text" placeholder="Entrez Telephone ..."  />
           <div className="btn">
-            <Button variant="outlined" size="medium" style={{background:'#1F90D9', marginTop:'20px'}}>
+            <Button variant="outlined" size="medium" style={{background:'#1F90D9', marginTop:'20pxq'}}>
               Submit
             </Button>
           </div>

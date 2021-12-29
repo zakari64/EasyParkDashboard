@@ -1,22 +1,22 @@
 [
     {
-        "icon": "bx bx-shopping-bag",
-        "count": "1,995",
+        "icon": "bx bxs-analyse",
+        "count": "1000",
         "title": "Total sales"
     },
     {
-        "icon": "bx bx-cart",
-        "count": "2,001",
-        "title": "Daily visits"
+        "icon": "bx bxs-car-garage",
+        "count": "190",
+        "title": "Underfloor slots"
     },
     {
-        "icon": "bx bx-dollar-circle",
-        "count": "$2,632",
-        "title": "Total income"
+        "icon": "bx bxs-parking",
+        "count": "245",
+        "title": "Parking slots"
     },
     {
-        "icon": "bx bx-receipt",
-        "count": "1,711",
-        "title": "Total orders"
+        "icon": "bx bx-user",
+        "count": "450",
+        "title": "Total users"
     }
 ]
