@@ -25,7 +25,7 @@ function Operations() {
   return (
     <div>
       <MaterialTable
-        title="Table des utilisateurs"
+        title="Table des employés"
         columns={[
           { title: 'Nom', field: 'Nom' },
           { title: 'Prénom', field: 'Prénom' },

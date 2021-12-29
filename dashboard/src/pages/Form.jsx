@@ -7,7 +7,7 @@ import "./form.css";
 function Form() {
   return (
     <section className="contact">
-      <div className="title">Ajout Utilisateur</div>
+      <div className="title">Ajout d'employé</div>
       <div  className="cnt">
         <form className="inputs">
           <input type="text" placeholder="Entrez Nom ..."  />
