@@ -41,7 +41,7 @@ class  Stats extends React.Component {
             format: 'dd/MM/yy HH:mm'
           },
         },
-        colors: ['#00487E', '#fd7a23']
+        colors: ["rgba(34,193,195,1)"  , "rgba(63,94,251,1)"]
       },
 
 
