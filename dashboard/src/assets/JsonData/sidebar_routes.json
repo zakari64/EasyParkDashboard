@@ -7,7 +7,7 @@
     {
         "display_name": "Employés",
         "route": "/layout/operations",
-        "icon": "bx bxs-analyse"
+        "icon": "bx bxs-user"
     },
     {
         "display_name": "Statistiques",
