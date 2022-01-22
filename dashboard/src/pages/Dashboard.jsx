@@ -12,9 +12,11 @@ import Badge from "../components/badge/Badge";
 
 import statusCards from "../assets/JsonData/status-card-data.json";
 
+import Button from "@mui/material/Button";
 
+import Stack from "@mui/material/Stack";
 
-
+import "./dashboard.css";
 
 const topCustomers = {
   head: ["utilisateurs", "opérations totales", "economies"],
@@ -140,7 +142,25 @@ const Dashboard = () => {
             ))}
           </div>
         </div>
-        <div className="col-4" style={{ width: "100%" }}>
+        <div className="btn">
+          <Link to="/layout/form3">
+            <Button
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                margin: "auto",
+                padding: "10px",
+                background: "349eff",
+              }}
+              variant="contained"
+            >
+              Réserver
+            </Button>
+          </Link>
+        </div>
+
+        {/* <div className="col-4" style={{ width: "100%" }}>
           <div className="card">
             <div className="card__header">
               <h3 style={{textAlign:'center',fontSize:'22px'}}>Données</h3>
@@ -157,11 +177,13 @@ const Dashboard = () => {
               <Link to="/">view all</Link>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-8" style={{ width: "100%" }}>
           <div className="card">
             <div className="card__header">
-              <h3 style={{fontSize:'22px',textAlign:'center'}}>Resumé operations</h3>
+              <h3 style={{ fontSize: "22px", textAlign: "center" }}>
+                Resumé operations
+              </h3>
             </div>
             <div className="card__body">
               <Table

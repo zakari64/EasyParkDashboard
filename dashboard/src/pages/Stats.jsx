@@ -23,7 +23,7 @@ class  Stats extends React.Component {
           zoom: {
             enabled: false,
           },
-          height: 320,
+          height: 250,
           type: 'area'
         },
         dataLabels: {

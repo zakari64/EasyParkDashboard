@@ -1,22 +1,22 @@
 [
     {
-        "icon": "bx bxs-analyse",
-        "count": "1000",
-        "title": "Total sales"
-    },
-    {
-        "icon": "bx bxs-car-garage",
-        "count": "190",
-        "title": "Underfloor slots"
+        "icon": "bx bx-car",
+        "count": "100",
+        "title": "Places occupées"
     },
     {
         "icon": "bx bxs-parking",
-        "count": "245",
-        "title": "Parking slots"
+        "count": "43",
+        "title": "Places libres"
     },
     {
-        "icon": "bx bx-user",
-        "count": "450",
-        "title": "Total users"
+        "icon": "bx bx-money",
+        "count": "5dh",
+        "title": "Tarif par deux heures"
+    },
+    {
+        "icon": "bx bx-money",
+        "count": "30dh",
+        "title": "Tarif par jour"
     }
 ]

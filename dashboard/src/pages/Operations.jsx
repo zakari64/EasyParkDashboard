@@ -65,7 +65,7 @@ function Operations() {
             onClick: (event, rowData) => window.confirm("You want to delete " + rowData.name),
             disabled: rowData.birthYear < 2000
           })
-        ]}
+        ]} 
         options={{
           actionsColumnIndex: -1
         }}
