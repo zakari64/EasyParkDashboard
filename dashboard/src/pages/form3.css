@@ -15,6 +15,7 @@ section .title {
 
 section .form {
     display : flex ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -25,9 +26,69 @@ section .form {
     
 }
 
-section .form .inputs {
-    width: 55%;
-    border-radius: 8px;
+section .form .inputs1 {
+    display : flex;
+    width : 100%;
+    gap : 55px ;
+    justify-content: center;
+    align-items: center;
     color : white;
     margin-bottom: 10px ;
 }
+section .form .inputs1 input {
+    padding : 5px ;
+    width : 25%;
+    border-radius: 10px ;
+    color : white ;
+}
+
+section .form .inputs2 {
+    display : flex;
+    width : 100%;
+    gap : 55px ;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    margin-bottom: 10px ;
+}
+section .form .inputs2 input {
+    padding : 5px ;
+    width : 25%;
+    border-radius: 10px ;
+    color : white ;
+}
+
+section .form .inputs3 {
+    display : flex;
+    width : 100%;
+    gap : 55px ;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    margin-bottom: 10px ;
+}
+
+section .form .inputs3 input  {
+  padding : 10px ;
+  border-radius : 10px ;
+  width : 25%;
+  text-align: center;
+
+}
+
+section .form .inputs4 {
+    display : flex;
+    width : 100%;
+    gap : 55px ;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    margin-bottom: 10px ;
+}
+section .form .inputs4 input {
+    padding : 10px ;
+    width : 30%;
+    text-align: center;
+    color : white ;
+}
+

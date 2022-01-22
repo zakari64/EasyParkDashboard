@@ -1,0 +1,14 @@
+.wrap{
+    display: flex;
+    width : 100% ;
+    justify-content: center;
+    align-items:center ;
+    padding : 10px ;
+
+}
+
+.wrap .wrapper img {
+    display: block;
+    margin: auto;
+    width : 45% ;
+}

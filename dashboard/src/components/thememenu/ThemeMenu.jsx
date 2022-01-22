@@ -7,12 +7,7 @@ import { useDispatch } from 'react-redux'
 import ThemeAction from '../../redux/actions/ThemeAction'
 
 const mode_settings = [
-    {
-        id: 'light',
-        name: 'Light',
-        background: 'light-background',
-        class: 'theme-mode-light'
-    },
+   
     {
         id: 'dark',
         name: 'Dark',
