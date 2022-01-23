@@ -12,8 +12,8 @@ function Form() {
         <form className="inputs">
           <input type="text" placeholder="Entrez Nom ..."  />
           <input type="text" placeholder="Entrez Prénom ..."  />
-          <input type="email" placeholder="Entrez email ..." />
-          <input type="text" placeholder="Entrez Telephone ..."  />
+          <input type="date" placeholder="Entrez date de naissance ..." />
+          <input type="text" placeholder="Entrez N° voiture ..."  />
           <div className="btn">
             <Button variant="outlined" size="medium" style={{background:'#1F90D9', marginTop:'20pxq'}}>
               Submit

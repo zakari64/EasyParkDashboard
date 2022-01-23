@@ -25,7 +25,7 @@ function Operations() {
   return (
     <div>
       <MaterialTable
-        title="Table des employés"
+        title="Table des clients récents"
         columns={[
           { title: 'Nom', field: 'Nom' },
           { title: 'Prénom', field: 'Prénom' },
@@ -37,12 +37,6 @@ function Operations() {
           },
         ]}
         data={[
-          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, voiture: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, voiture: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, voiture: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, voiture: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, voiture: 63 },
-          { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, voiture: 63 },
           { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, voiture: 63 },
           { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, voiture: 63 },
           { Nom: 'Mehmet', Prénom: 'Baran', Date: 1987, voiture: 63 },

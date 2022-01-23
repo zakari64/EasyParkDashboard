@@ -25,10 +25,13 @@
 }
 .contact .cnt .inputs input::placeholder{
   color : #BDBDBD;
+
 }
+
 .contact .cnt .inputs input:hover {
  border: 2px solid #1F90D9;
 }
+
 .contact .cnt .inputs {
   display: flex;
   flex-direction: column;
